@@ -7,6 +7,6 @@ variable "fruits" {
   default = {
     apple  = 10
     orange = 200
-    banana = 50
+    banana = 60
   }
 }
