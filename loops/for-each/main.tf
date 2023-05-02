@@ -1,6 +1,6 @@
 esorce "null_resource" "fruits" {
   provisioner "local-exec" {
-    command = " echo ${ leanth(var.fruits)}"
+    command = " echo ${ length(var.fruits)}"
   }}
 variable "fruits"{
   default={
