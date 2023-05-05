@@ -3,4 +3,4 @@ resource "null_resource" "nothing" {
     command = "echo Hello from module"
   }
 }
-
+variable "input"{}
