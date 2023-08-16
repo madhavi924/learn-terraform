@@ -1,5 +1,6 @@
-data "aws_ec2_instance_type" "example" {
-  instance_type = "t2.micro"
+resource "aws_ec2_availability_zone_group" "example" {
+  group_name    = "us-west-2-lax-1"
+  opt_in_status = "opted-in"
 }
 
 
