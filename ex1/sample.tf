@@ -164,7 +164,9 @@ resource "aws_instance" "mongodb" {
   tags = {
     Name = "payment"
   }
-}resource "aws_route53_record" "payment" {
+}
+
+ resource "aws_route53_record" "payment" {
    zone_id = "Z07268141ZWT4Z47HHYHW"
    name    = "payment-dev.madhavi91.online"
    type    = "A"
